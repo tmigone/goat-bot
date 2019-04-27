@@ -9,6 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // Routes
 app.get('*', messi.data)
 app.post('/bless', messi.blessing)
+app.post('/goat', messi.goat)
 
 // Start listening only in development
 if (process.env.NODE_ENV === 'development') {

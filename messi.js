@@ -4,7 +4,8 @@ let BLESSING_IMAGES = [
 ]
 
 let GOAT_IMAGES = [
-  'https://i.ytimg.com/vi/eN67WhWz4Q8/maxresdefault.jpg'
+  'https://i.ytimg.com/vi/eN67WhWz4Q8/maxresdefault.jpg',
+  'https://ichef.bbci.co.uk/images/ic/704xn/p0696xkv.jpg'
 ]
 
 exports.data = (req, res) => {
@@ -19,6 +20,13 @@ exports.blessing = (req, res) => {
   res.json({
     text: `🌟 ${userId} 🌟 was blessed by 🏆⚽🐐Lio Messi 🐐⚽🏆, enjoy the magic!`,
     attachments: [ { image_url: getRandomImage(BLESSING_IMAGES) } ]
+  })
+}
+
+exports.goat = (req, res) => {
+  res.json({
+    text: `🏆⚽🐐Lio Messi 🐐⚽🏆`,
+    attachments: [ { image_url: getRandomImage(GOAT_IMAGES) } ]
   })
 }
 
