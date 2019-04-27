@@ -1,5 +1,6 @@
 # goat-bot
 🐐goat-bot is the greatest Slack app ever made. It brings the magic of Lionel Messi into your Slack channels.
+Also, it's not really a bot... for now.
 
 ## Install instructions
 TODO
