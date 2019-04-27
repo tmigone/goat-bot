@@ -1,0 +1,30 @@
+{
+  "name": "goat-bot",
+  "version": "1.0.0",
+  "description": "goat-bot is a bot that brings the magic of Lionel Messi to your Slack channels.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasmigone/goat-bot.git"
+  },
+  "keywords": [
+    "goat",
+    "messi",
+    "lionel",
+    "greatest",
+    "slack",
+    "command"
+  ],
+  "author": "Tomás Migone <tomas@p4d.com.ar> (http://www.programming4design.com.ar)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomasmigone/goat-bot/issues"
+  },
+  "homepage": "https://github.com/tomasmigone/goat-bot#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
