@@ -2,7 +2,7 @@
   "name": "goat-bot",
   "version": "1.0.0",
   "description": "goat-bot is a bot that brings the magic of Lionel Messi to your Slack channels.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
