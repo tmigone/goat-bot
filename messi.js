@@ -18,6 +18,7 @@ exports.data = (req, res) => {
 exports.blessing = (req, res) => {
   let userId = getUserId(req.body.text) || `<@${req.body.user_id}>`
   res.json({
+    response_type: 'in_channel',
     text: `🌟 ${userId} 🌟 was blessed by 🏆⚽🐐Lio Messi 🐐⚽🏆, enjoy the magic!`,
     attachments: [ { image_url: getRandomImage(BLESSING_IMAGES) } ]
   })
@@ -25,6 +26,7 @@ exports.blessing = (req, res) => {
 
 exports.goat = (req, res) => {
   res.json({
+    response_type: 'in_channel',
     text: `🏆⚽🐐Lio Messi 🐐⚽🏆`,
     attachments: [ { image_url: getRandomImage(GOAT_IMAGES) } ]
   })
